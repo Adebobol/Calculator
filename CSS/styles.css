@@ -33,22 +33,24 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-input[type = "number"] {
+input[type="number"] {
     outline: none;
-    width: 100%;
+    width: 330px;
     height: 50px;
     border-radius: 5px;
     border: none;
     background-color: hsl(224, 36%, 15%);
     margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 35px;
 }
 
 .button-rack {
     display: grid;
-    grid-template: repeat(5,40px) / repeat(4,1fr);
+    grid-template: repeat(5, 40px) / repeat(4, 1fr);
     gap: 20px;
-    width: 100%;
     background-color: hsl(224, 36%, 15%);
+    padding: 10px;
     /* padding: 10px; */
     /* height: 100%; */
 }
